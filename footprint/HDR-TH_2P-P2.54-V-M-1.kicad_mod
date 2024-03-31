@@ -18,7 +18,7 @@
   (fp_text user REF** (at 0 4) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model library/footprint/packages3d/HDR-TH_2P-P2.54-V-M-1.step
+  (model packages3d/HDR-TH_2P-P2.54-V-M-1.step
     (at (xyz 0 0 -0.11811))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

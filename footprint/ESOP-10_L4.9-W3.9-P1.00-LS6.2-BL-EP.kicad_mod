@@ -29,7 +29,7 @@
   (fp_text user REF** (at -0.000127 6.749936) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model library/footprint/packages3d/ESOP-10_L4.9-W3.9-P1.00-LS6.2-BL-EP.step
+  (model packages3d/ESOP-10_L4.9-W3.9-P1.00-LS6.2-BL-EP.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -70,7 +70,7 @@
   (fp_text user REF** (at -3.726543 13.000127) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model library/footprint/packages3d/WIFI-SMD_ESP32-WROOM-32E.step
+  (model packages3d/WIFI-SMD_ESP32-WROOM-32E.step
     (at (xyz -0.148762 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))

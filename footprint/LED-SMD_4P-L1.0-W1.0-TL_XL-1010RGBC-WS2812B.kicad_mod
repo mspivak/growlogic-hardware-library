@@ -150,7 +150,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "30247922-c120-46fa-a6f9-a7035e56becb")
 	)
-	(model "library/footprint/packages3d/LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B.step"
+	(model "packages3d/LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B.step"
 		(offset
 			(xyz 0 0 0)
 		)

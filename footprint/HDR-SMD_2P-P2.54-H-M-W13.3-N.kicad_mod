@@ -22,7 +22,7 @@
   (fp_text user REF** (at 0 16.476962) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model library/footprint/packages3d/HDR-SMD_2P-P2.54-H-M-W13.3-N.step
+  (model packages3d/HDR-SMD_2P-P2.54-H-M-W13.3-N.step
     (at (xyz 0 -0.227086 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

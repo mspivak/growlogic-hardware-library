@@ -35,7 +35,7 @@
   (fp_text user REF** (at 0 5.5762) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model library/footprint/packages3d/DFN-8_L3.0-W3.0-P0.50-BL-EP.step
+  (model packages3d/DFN-8_L3.0-W3.0-P0.50-BL-EP.step
     (at (xyz 0.005 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
