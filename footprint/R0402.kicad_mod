@@ -1,6 +1,6 @@
-(module "R0402" (layer F.Cu) (tedit 66043837)
+(module "R0402" (layer F.Cu) (tedit 660A107A)
   (descr "R0402 footprint")
-  (tags "R0402 footprint C138033")
+  (tags "R0402 footprint C25782")
   (attr smd)
   (fp_text reference REF** (at 0 -2.498603) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -20,7 +20,7 @@
   (fp_text user REF** (at 0 4.498603) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model packages3d/R0402.step
+  (model library/footprint/packages3d/R0402.step
     (at (xyz -0.009842 0.007087 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
