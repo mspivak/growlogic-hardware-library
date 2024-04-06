@@ -1,6 +1,6 @@
-(module "C0805" (layer F.Cu) (tedit 660F0176)
+(module "C0805" (layer F.Cu) (tedit 661195F4)
   (descr "C0805 footprint")
-  (tags "C0805 footprint C1713")
+  (tags "C0805 footprint C15850")
   (attr smd)
   (fp_text reference REF** (at 0 -2.903607) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -24,7 +24,7 @@
   (fp_text user REF** (at 0 4.903607) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model library/footprint/packages3d/C0805.step
+  (model ./footprint/packages3d/C0805.step
     (at (xyz -0.05563 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
