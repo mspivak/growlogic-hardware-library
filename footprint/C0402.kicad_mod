@@ -1,6 +1,6 @@
-(module "C0402" (layer F.Cu) (tedit 66119D8D)
+(module "C0402" (layer F.Cu) (tedit 66142D88)
   (descr "C0402 footprint")
-  (tags "C0402 footprint C155422")
+  (tags "C0402 footprint C1525")
   (attr smd)
   (fp_text reference REF** (at 0 -2.498603) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -24,7 +24,7 @@
   (fp_text user REF** (at 0 4.498603) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model ./footprint/packages3d/C0402.step
+  (model ./Growlogic/packages3d/C0402.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
