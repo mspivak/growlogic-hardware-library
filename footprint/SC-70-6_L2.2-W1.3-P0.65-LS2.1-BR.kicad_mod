@@ -1,4 +1,4 @@
-(module "SC-70-6_L2.2-W1.3-P0.65-LS2.1-BR" (layer F.Cu) (tedit 66043827)
+(module "SC-70-6_L2.2-W1.3-P0.65-LS2.1-BR" (layer F.Cu) (tedit 66318239)
   (descr "SC-70-6_L2.2-W1.3-P0.65-LS2.1-BR footprint")
   (tags "SC-70-6_L2.2-W1.3-P0.65-LS2.1-BR footprint C62892")
   (attr smd)
@@ -22,12 +22,12 @@
   (fp_text user REF** (at 0 5.1) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model packages3d/SC-70-6_L2.2-W1.3-P0.65-LS2.1-BR.step
+  (model "${GROWLOGIC_LIBRARY}/footprint/packages3d/SC-70-6_L2.2-W1.3-P0.65-LS2.1-BR.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))
   )
-  (model packages3d/SC-70-6_L2.2-W1.3-P0.65-LS2.1-BR.step
+  (model "${GROWLOGIC_LIBRARY}/footprint/packages3d/SC-70-6_L2.2-W1.3-P0.65-LS2.1-BR.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
