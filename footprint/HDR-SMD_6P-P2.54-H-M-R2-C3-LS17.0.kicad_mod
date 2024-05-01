@@ -1,4 +1,4 @@
-(module "HDR-SMD_6P-P2.54-H-M-R2-C3-LS17.0" (layer F.Cu) (tedit 6605B1E0)
+(module "HDR-SMD_6P-P2.54-H-M-R2-C3-LS17.0" (layer F.Cu) (tedit 66329203)
   (descr "HDR-SMD_6P-P2.54-H-M-R2-C3-LS17.0 footprint")
   (tags "HDR-SMD_6P-P2.54-H-M-R2-C3-LS17.0 footprint C5149353")
   (attr smd)
@@ -27,7 +27,7 @@
   (fp_text user REF** (at -0.000025 18.462967) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model packages3d/HDR-SMD_6P-P2.54-H-M-R2-C3-LS17.0.step
+  (model "${GROWLOGIC_LIBRARY}/footprint/packages3d/HDR-SMD_6P-P2.54-H-M-R2-C3-LS17.0.step"
     (at (xyz -0.000001 -0.211061 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
