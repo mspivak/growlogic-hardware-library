@@ -1,4 +1,4 @@
-(module "WIFI-SMD_ESP32-WROOM-32UE" (layer F.Cu) (tedit 66310CD7)
+(module "WIFI-SMD_ESP32-WROOM-32UE" (layer F.Cu) (tedit 66318FC8)
   (descr "WIFI-SMD_ESP32-WROOM-32UE footprint")
   (tags "WIFI-SMD_ESP32-WROOM-32UE footprint C701346")
   (attr smd)
