@@ -1,6 +1,6 @@
-(module "C0603" (layer F.Cu) (tedit 66141B48)
+(module "C0603" (layer F.Cu) (tedit 663E87A7)
   (descr "C0603 footprint")
-  (tags "C0603 footprint C14665")
+  (tags "C0603 footprint C69335")
   (attr smd)
   (fp_text reference REF** (at -0.007722 -2.715443) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -24,7 +24,7 @@
   (fp_text user REF** (at -0.007722 4.710033) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model ./Growlogic/packages3d/C0603.step
+  (model "${GROWLOGIC_LIBRARY}/footprint/packages3d/C0603.step"
     (at (xyz -0.019565 -0.005 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
