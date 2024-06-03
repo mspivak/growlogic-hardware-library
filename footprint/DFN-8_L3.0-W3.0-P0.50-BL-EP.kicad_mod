@@ -1,4 +1,4 @@
-(module "DFN-8_L3.0-W3.0-P0.50-BL-EP" (layer F.Cu) (tedit 663181FE)
+(module "DFN-8_L3.0-W3.0-P0.50-BL-EP" (layer F.Cu) (tedit 665E2575)
   (descr "DFN-8_L3.0-W3.0-P0.50-BL-EP footprint")
   (tags "DFN-8_L3.0-W3.0-P0.50-BL-EP footprint C559035")
   (attr smd)

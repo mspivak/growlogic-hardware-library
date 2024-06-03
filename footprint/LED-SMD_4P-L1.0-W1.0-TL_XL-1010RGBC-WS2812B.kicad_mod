@@ -115,17 +115,6 @@
 		(layer "F.SilkS")
 		(uuid "e36256db-067a-42cf-8167-c4a7f63443d2")
 	)
-	(fp_circle
-		(center -0.499873 -0.499873)
-		(end -0.469901 -0.499873)
-		(stroke
-			(width 0.059995)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "e64549e8-a9d0-4834-b6f5-e44886817ff2")
-	)
 	(pad "1" smd rect
 		(at -0.424943 -0.424689)
 		(size 0.450013 0.450013)

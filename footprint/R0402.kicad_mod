@@ -1,28 +1,172 @@
-(module "R0402" (layer F.Cu) (tedit 6642226F)
-  (descr "R0402 footprint")
-  (tags "R0402 footprint C25082")
-  (attr smd)
-  (fp_text reference REF** (at 0 -2.498603) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value R0402 (at 0 2.498603) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center -0.5 0.249987) (end -0.470003 0.249987) (layer F.SilkS) (width 0.059995))
-  (fp_line (start -0.226213 0.498603) (end -0.944247 0.498603) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -0.944247 0.498603) (end -0.944247 -0.498603) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -0.944247 -0.498603) (end -0.226213 -0.498603) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 0.226213 0.498603) (end 0.944247 0.498603) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 0.944247 0.498603) (end 0.944247 -0.498603) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 0.944247 -0.498603) (end 0.226213 -0.498603) (layer F.SilkS) (width 0.1524))
-  (pad 2 smd rect (at 0.432817 0) (size 0.565659 0.540005) (layers F.Cu F.Mask F.Paste))
-  (pad 1 smd rect (at -0.432817 0) (size 0.565659 0.540005) (layers F.Cu F.Mask F.Paste))
-  (fp_text user REF** (at 0 4.498603) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (model "${GROWLOGIC_LIBRARY}/footprint/packages3d/R0402.step"
-    (at (xyz -0.009842 0.007087 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "R0402"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "R0402 footprint")
+	(tags "R0402 footprint C25082")
+	(property "Reference" "REF**"
+		(at 0 -2.498603 0)
+		(layer "F.SilkS")
+		(uuid "72a3e795-19cf-4781-83f9-3e8ccea62218")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R0402"
+		(at 0 2.498603 0)
+		(layer "F.Fab")
+		(uuid "40418ea7-1017-4b6d-a201-6d7ea29431c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9ae4aad-6df0-4352-b82d-5d3eb287cb32")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e437dad5-c6fa-4dd8-8913-5783c2d31803")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a722a161-dc15-49aa-8d35-e7f3bb79406b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.944247 -0.498603)
+		(end -0.226213 -0.498603)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12c5379e-38ea-4f00-97dc-5dc7ea4a2db8")
+	)
+	(fp_line
+		(start -0.944247 0.498603)
+		(end -0.944247 -0.498603)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3dee481-3f30-4290-9030-d48449494e6b")
+	)
+	(fp_line
+		(start -0.226213 0.498603)
+		(end -0.944247 0.498603)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c03e5f63-66d2-4dcf-bddd-426e753fe2df")
+	)
+	(fp_line
+		(start 0.226213 0.498603)
+		(end 0.944247 0.498603)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "beb92445-818d-41bc-8127-b670aa17ecfb")
+	)
+	(fp_line
+		(start 0.944247 -0.498603)
+		(end 0.226213 -0.498603)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80cec7b8-8a78-4d1a-a52d-2177e6bd397c")
+	)
+	(fp_line
+		(start 0.944247 0.498603)
+		(end 0.944247 -0.498603)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10aa2d2e-74ed-4c68-926d-c32e87fae65d")
+	)
+	(fp_circle
+		(center -0.762 0.381)
+		(end -0.732003 0.381)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b17752c8-62bd-4367-9572-3410550cf0dd")
+	)
+	(fp_text user "REF**"
+		(at 0 4.498603 0)
+		(layer "F.Fab")
+		(uuid "bf93aa37-fba8-40ee-8157-edce2899a651")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.432817 0)
+		(size 0.565659 0.540005)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a3b636c8-69da-4508-8920-34fff7d85912")
+	)
+	(pad "2" smd rect
+		(at 0.432817 0)
+		(size 0.565659 0.540005)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "74da7490-a149-43b2-a735-0dcb36db7a2c")
+	)
+	(model "${GROWLOGIC_LIBRARY}/footprint/packages3d/R0402.step"
+		(offset
+			(xyz -0.2499867962 0.1800097973 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
