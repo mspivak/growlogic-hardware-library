@@ -1,4 +1,4 @@
-(module "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR" (layer F.Cu) (tedit 66043820)
+(module "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR" (layer F.Cu) (tedit 665F1F96)
   (descr "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR footprint")
   (tags "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR footprint C8547")
   (attr smd)
@@ -21,7 +21,7 @@
   (fp_text user REF** (at 0 5.526213) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model packages3d/SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR.step
+  (model "${GROWLOGIC_LIBRARY}/footprint/packages3d/SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
